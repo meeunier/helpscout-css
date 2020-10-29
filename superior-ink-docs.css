@@ -4,9 +4,84 @@
     Contact: dev@jackspades.studio
 */
 
+:root {
+  /* Colors */
+  /* - Base Scales --color-[name]-[shade] */
+	--color-light-green: #eaedea;
+  --color-blue:#2b189b;
+  --color-blue-dark:#211375;
+  --color-blue-extra-dark:#190f57;
+  --color-green:#006654;
+  --color-green-dark:#0c5b4c;
+  --color-green-extra-dark:#0a5345;
+  --color-red-light:#f26b4d;
+  --color-red:#c35037;
+  --color-red-dark:#b5432b;
+  --color-red-extra-dark:#a03620;
+  --color-grey-extra-light:rgba(0, 0, 0, 0.12);
+  --color-grey-light:rgba(0, 0, 0, 0.24);
+  --color-grey:rgba(0, 0, 0, 0.56);
+  --color-grey-dark:rgba(0, 0, 0, 0.6);
+  --color-grey-extra-dark:rgba(0, 0, 0, 0.72);
+  --color-black:#000;
+  --color-white:#FFF;
+  /* - Special */
+  --color-background-grey:#f4f4f4;
+  --color-background-yellow:#f8e3c8;
+  --color-background-pink:#f8dbd5;
+  --color-background-info-blue:#ace5f6;
+  --color-background-error-red:#fb9782;
+  --color-background-warning-yellow:#fcde6d;
+  --color-illustration-blue:#6a6feb;
+  --color-illustration-green:#1b9c84;
+  --color-illustration-red:#ff7e6c;
+
+  /* - Font Scale */
+  /* Superior Ink Headings */
+  --font-family-text: Lato, sans-serif;
+  --font-size-extra-small:12px;
+  --font-line-height-extra-small:18px;
+  --font-size-small:14px;
+  --font-line-height-small:20px;
+  --font-size-normal:16px;
+  --font-line-height-normal:24px;
+  --font-size-large:18px;
+  --font-line-height-large:26px;
+
+  /* Superior Ink Text */
+  --font-family-sub-headline: Lato, sans-serif;
+  --font-size-sub-headline-small:24px;
+  --font-line-height-sub-headline-small:32px;
+  --font-size-sub-headline-normal:28px;
+  --font-line-height-sub-headline-normal:38px;
+  --font-size-sub-headline-large:32px;
+  --font-line-height-sub-headline-large:46px;
+
+  /* - Border Radius */
+  --border-radius-extra-small:4px;
+  --border-radius-small:8px;
+  --border-radius-large:12px;
+
+	/* - Drop Shadow */
+  --drop-shadow-small:0px 1px 4px rgba(0, 0, 0, 0.16);
+  --drop-shadow-large:0px 8px 16px rgba(0, 0, 0, 0.16), 0px 1px 4px rgba(0, 0, 0, 0.16);
+
+	/* - Spacing Scale */
+  --spacing-4:4px;
+  --spacing-8:8px;
+  --spacing-12:12px;
+  --spacing-16:16px;
+  --spacing-24:24px;
+  --spacing-32:32px;
+  --spacing-40:40px;
+  --spacing-64:64px;
+  --spacing-96:96px;
+  --spacing-128:128px;
+  --spacing-192:192px; }
+
 body {
 	font-family: Lato, sans-serif;
-	background-color: #e1f3eb;
+	background-color: var(--color-light-green);
 }
 
 .navbar-inner {
@@ -58,7 +133,7 @@ body {
 
 .category-list .category {
     text-align: center;
-		background-color: #ffffff;
+		background-color: var(--color-white) !important;
     display: inline-block;
     width: 29%;
     border: 1px solid #000000;
@@ -73,14 +148,12 @@ body {
 }
 
 .category {
-		background: white;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-position-x: 50% !important;
     background-position-y: 24px !important;
-    /* background-color: var(--color-white) !important; */
-    border-radius: var(--border-radius-small);
-    border-radius: var(--border-radius-large);
+    background-color: var(--color-white) !important;
+    border-radius: 10px;
     border: none !important;
     border-width: 0 !important;
     border-style: none !important;
@@ -103,7 +176,7 @@ h2#collection-1 {
 .contentWrapper {
     background: #fff;
     border: 1px solid #e9e5e5;
-		border-radius: 5px;
+		border-radius: var(--border-radius-large);
     color: #222;
     min-height: 460px;
     padding: 45px 46px;
