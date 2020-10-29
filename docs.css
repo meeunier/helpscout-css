@@ -12,9 +12,10 @@ body {
 
 .category-list .category {
     text-align: center;
+		background-color: #dfdfdf;
     display: inline-block;
     width: 29%;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #000000;
     margin: 0 .8% 20px;
     padding: 1.5em 1em;
     cursor: pointer;
