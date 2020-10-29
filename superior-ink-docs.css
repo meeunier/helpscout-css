@@ -7,7 +7,11 @@
 :root {
   /* Colors */
   /* - Base Scales --color-[name]-[shade] */
-	--color-light-green: #eaedea;
+	--color-light-green: #dce1dc;
+	--color-green: #73c7a2;
+
+
+
   --color-blue:#2b189b;
   --color-blue-dark:#211375;
   --color-blue-extra-dark:#190f57;
@@ -116,7 +120,7 @@ body {
 }
 
 #searchBar button {
-    background: #73c7a2;
+    background: var(--color-green);
 }
 
 #searchBar button:hover{
