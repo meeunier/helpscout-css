@@ -36,6 +36,10 @@ body {
     background: #73c7a2;
 }
 
+#searchBar button:hover{
+	background: #4fb88a;
+}
+
 .category-list {
     display: flex;
     flex-wrap: wrap;
