@@ -17,6 +17,8 @@ body {
     box-shadow: none;
 }
 
+/* HOMEPAGE */
+
 #docsSearch {
     background: transparent;
     border-bottom: none;
@@ -88,4 +90,20 @@ body {
 
 h2#collection-1 {
     display: none;
+}
+
+/* ARTICLE PAGE */
+
+.contentWrapper {
+    background: #fff;
+    border: 1px solid #e9e5e5;
+		border-radius: 5px;
+    color: #222;
+    min-height: 460px;
+    padding: 45px 46px;
+    position: relative;
+}
+
+#fullArticle .title {
+    margin: 0 30px 4em 0;
 }
