@@ -353,14 +353,14 @@ h2#collection-1 {
     #sidebar .nav-list a:hover {
       color: var(--color-green-dark); }
   #sidebar .nav-list .active a {
-    color: var(--color-blue);
+    color: var(--color-green);
     font-size: var(--font-size-normal);
     line-height: var(--font-line-height-normal);
     font-weight: 600 !important; }
     #sidebar .nav-list .active a i {
       visibility: hidden; }
     #sidebar .nav-list .active a::before {
-      content: "-> "; }
+      content: "> "; }
     #sidebar .nav-list .active a:focus {
       color: var(--color-green) !important; }
   #sidebar .nav-list a:hover {
