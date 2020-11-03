@@ -277,6 +277,11 @@ h2#collection-1 {
     margin: 0 30px 4em 0;
 }
 
+.articleList {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .articleList ul {
   display: flex !important;
   flex-wrap: wrap;
