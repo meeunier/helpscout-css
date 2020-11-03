@@ -9,7 +9,7 @@
   /* - Base Scales --color-[name]-[shade] */
 	--color-light-green: #dce1dc;
 	--color-green: #73c7a2;
-	--color-green-dark:#0c5b4c;
+	--color-green-dark: #0c5b4c;
 
 
 
@@ -103,7 +103,7 @@ body {
 
 /* HOMEPAGE */
 
-#docsSearch {
+/* #docsSearch {
     background: transparent;
     border-bottom: none;
     margin-bottom: 3em;
@@ -124,7 +124,77 @@ body {
 
 #searchBar button:hover{
 		background: #4fb88a;
-}
+} */
+
+#docsSearch {
+  background-color: transparent;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: none;
+  padding: 0;
+  margin-bottom: 32px; }
+  #docsSearch h1 {
+    font-family: var(--font-family-headline);
+    font-size: var(--font-size-headline-normal);
+    line-height: var(--font-line-height-headline-normal);
+    margin: 0;
+    margin-bottom: 16px;
+    color: var(--color-black); }
+  #docsSearch #searchBar {
+    width: 520px !important; }
+    #docsSearch #searchBar button {
+      background: var(--color-green);
+      height: 56px;
+      border-radius: 0 12px 12px 0;
+      border: 1px solid var(--color-green);
+      text-shadow: none;
+      font-size: var(--font-size-large);
+      font-family: var(--font-family-text);
+      font-weight: 400;
+      padding: 0 32px;
+      line-height: 0;
+      transition: all 0.1s ease-in !important;
+      outline: none; }
+      #docsSearch #searchBar button .icon-search::before {
+        content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIg\a         ZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldm\a         Vub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDExQzQgNy4xMzQwMSA3LjEzNDAxIDQgMTEgNEMxNC44NjYg\a         NCAxOCA3LjEzNDAxIDE4IDExQzE4IDE0Ljg2NiAxNC44NjYgMTggMTEgMThDNy4xMzQwMSAxOCA0IDE0Ljg2NiA0ID\a         ExWk0xMSAyQzYuMDI5NDQgMiAyIDYuMDI5NDQgMiAxMUMyIDE1Ljk3MDYgNi4wMjk0NCAyMCAxMSAyMEMxMy4xMjUg\a         MjAgMTUuMDc4IDE5LjI2MzUgMTYuNjE3NyAxOC4wMzE5TDIwLjI5MjkgMjEuNzA3MUMyMC42ODM0IDIyLjA5NzYgMj\a         EuMzE2NiAyMi4wOTc2IDIxLjcwNzEgMjEuNzA3MUMyMi4wOTc2IDIxLjMxNjYgMjIuMDk3NiAyMC42ODM0IDIxLjcw\a         NzEgMjAuMjkyOUwxOC4wMzE5IDE2LjYxNzdDMTkuMjYzNSAxNS4wNzggMjAgMTMuMTI1IDIwIDExQzIwIDYuMDI5ND\a         QgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"); }
+      #docsSearch #searchBar button:hover {
+        background: var(--color-green-dark); }
+      #docsSearch #searchBar button:focus {
+        background: var(--color-blue-green-dark); }
+  #docsSearch textarea, #docsSearch input[type=text] {
+    box-shadow: none;
+    transition: none;
+    -webkit-appearance: none;
+    transition: all 0.1s ease-in; }
+  #docsSearch .search-query {
+    border: 1px solid var(--color-grey-extra-light) !important;
+    border-radius: 12px !important;
+    color: var(--color-black) !important;
+    height: 56px !important;
+    font-family: var(--font-family-text) !important;
+    font-size: 18px !important;
+    padding-left: 16px !important;
+    padding-right: 132px; }
+    #docsSearch .search-query:hover {
+      border: 1px solid var(--color-grey-light) !important; }
+    #docsSearch .search-query:focus {
+      border-color: var(--color-green) !important;
+      box-shadow: inset 0px 0px 0px 1px var(--color-green); }
+  #docsSearch #serp-dd {
+    border-radius: 9px;
+    box-shadow: var(--drop-shadow-large);
+    top: 84px; }
+    #docsSearch #serp-dd .noResults {
+      padding: 16px 24px;
+      font-size: var(--font-size-normal);
+      color: var(--color-grey); }
+    #docsSearch #serp-dd a {
+      color: var(--color-green);
+      font-size: var(--font-size-normal);
+      padding: 16px 16px; }
 
 .category-list {
     display: flex;
