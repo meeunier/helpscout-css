@@ -303,6 +303,10 @@ h2#collection-1 {
   width: 0 !important;
   margin: 0 !important; }
 
+.icon-article-doc {
+	display: none;
+}
+
 @media (max-width: 768px) {
   .articleList li {
     width: 100%; } }
