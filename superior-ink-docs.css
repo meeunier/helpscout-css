@@ -60,6 +60,15 @@
   --font-size-sub-headline-large:32px;
   --font-line-height-sub-headline-large:46px;
 
+
+  --font-family-headline: Lato, sans-serif;
+  --font-size-headline-small:40px;
+  --font-line-height-headline-small:52px;
+  --font-size-headline-normal:80px;
+  --font-line-height-headline-normal:90px;
+  --font-size-headline-large:120px;
+  --font-line-height-headline-large:124px;
+
   /* - Border Radius */
   --border-radius-extra-small:4px;
   --border-radius-small:8px;
