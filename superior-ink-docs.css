@@ -277,9 +277,8 @@ h2#collection-1 {
     margin: 0 30px 4em 0;
 }
 
-
 .articleList ul {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
   margin-left: 0 !important;
   margin-bottom: 0 !important; }
