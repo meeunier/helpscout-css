@@ -15,7 +15,6 @@
   --color-blue:#2b189b;
   --color-blue-dark:#211375;
   --color-blue-extra-dark:#190f57;
-  --color-green:#006654;
   --color-green-dark:#0c5b4c;
   --color-green-extra-dark:#0a5345;
   --color-red-light:#f26b4d;
@@ -176,6 +175,14 @@ h2#collection-1 {
 }
 
 /* ARTICLE PAGE */
+
+#main-content {
+  background-image: none;
+  padding-top: 40px; }
+
+@media only screen and (max-width: 768px) {
+  #main-content {
+    padding-top: 0; } }
 
 .contentWrapper {
     background: #fff;
