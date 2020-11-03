@@ -277,6 +277,37 @@ h2#collection-1 {
     margin: 0 30px 4em 0;
 }
 
+
+.articleList ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important; }
+
+.articleList li {
+  width: 29%;
+  border-top: solid 2px var(--color-blue);
+  border-top: solid 2px var(--color-grey-extra-light);
+  padding: 0;
+  padding-bottom: 40px;
+  padding-top: 8px;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+  margin-bottom: 24px !important; }
+
+.articleList a {
+  text-decoration: none;
+  word-break: break-word !important; }
+
+.articleList li::before {
+  content: "" !important;
+  width: 0 !important;
+  margin: 0 !important; }
+
+@media (max-width: 768px) {
+  .articleList li {
+    width: 100%; } }
+
 #sidebar form .search-query {
     display: block;
     width: 100%;
